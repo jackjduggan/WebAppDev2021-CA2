@@ -1,0 +1,28 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+  background-image: url('https://cdn.glitch.com/2195feae-51b9-4778-a4c2-b7a1e4080f7f%2Fmario.jpg?v=1616343528350');
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+/* This Style hides function by default */
+#readmore {
+  display: none;
+}
+#welcomeuser {
+  display: none;
+}
+
+.name{
+  padding-top:20px;
+  padding-right:5px;
+  line-height:20px;
+  font-weight:bold;
+  text-transform:capitalize;
+}

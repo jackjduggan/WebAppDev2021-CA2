@@ -1,0 +1,76 @@
+{{> menu id="about"}}
+
+<section class="ui center aligned middle aligned segment">
+  <h2 class="ui header">
+    The video game collection app team:
+  </h2>
+
+  <div class="ui centered cards">
+
+    {{#each developers}}
+      <div class="ui card" id ="{{name}}">
+        <div class="image">
+          <img src="{{image}}">
+        </div>
+        <div class="content">
+          <a class="header">{{fullname}}</a>
+          <div class="meta">
+            <span class="date">Joined in {{joined}}</span>
+          </div>
+          <div class="description">
+            {{name}} is a {{job}} in {{county}}
+          </div>
+        </div>
+        <div class="extra content">
+        </div>
+      </div>
+    {{/each}}
+    
+    
+  
+  </div>
+  <br>
+  
+  <!-- CONTACT FORM -->
+  <form action="" method="get" id="contact" class="ui form">
+
+<!-- Contact Name -->
+    <div class="inline field">
+        <label for = "contactname" class="two wide field">Contact Name:</label>
+        <input type="text" name="contactname" id="contactname" class="eight wide field" required autofocus pattern = "[A-Z][a-z]+( [A-Z][a-z]+)*" title="Please enter a name (Surname optional) with First Letter capitalised">
+    </div>
+<!-- Contact Number -->
+    <div class="inline field">
+        <label for="number" class="two wide field">Telephone Number:</label>
+        <input type="tel" name="number" id="number" class="eight wide field" required pattern = "^(\(\d{3}\)|\d{3})-?\d{6,9}$" title="Please enter a telephone number (9-12 digits, allows brackets and hyphens)">
+    </div>
+<!-- Email Address -->
+    <div class="inline field">
+        <label for="email" class="two wide field">Email Address:</label>
+        <input type="email" name="email" id="email" class="eight wide field" 
+        required pattern = "^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$" title="Please enter a valid email address (xxxx@yyy.zzz)">
+    </div>
+<!-- Additional Details -->
+    <p>Please leave your message in the box below. We usually respond without 24 hours, depending on the day and/or time of year.</p>
+    <!-- TextArea -->
+    <div class="inline field">
+    <label for="comments">Please leave your inquiry here.</label>
+    <textarea name="comments" id= "comments" rows="5" cols="20">
+    </textarea>
+    </div>
+    
+    <!-- Submit and Reset Buttons -->
+    <button class="ui red button" type="submit">
+        Send Inquiry
+    </button>
+    <button class="ui red button" type="reset">
+        Clear Form
+    </button>
+  </form>
+  <br>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9770.901908212034!2d-
+               7.167130753437183!3d52.24836981349286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13
+               .1!3m3!1m2!1s0x4842c41310dd4131%3A0x4042f0dcf13f7cfe!2sWaterford%20Institute
+               %20of%20Technology!5e0!3m2!1sen!2sie!4v1616344375518!5m2!1sen!2sie" 
+          width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</section>

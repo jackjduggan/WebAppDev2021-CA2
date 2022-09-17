@@ -1,0 +1,53 @@
+{
+  "users": [
+    {
+      "firstName": "homer",
+      "lastName": "simpson",
+      "email": "homer@simpson.com",
+      "password": "secret",
+      "id": "3ad52697-6d98-4d80-8273-084de55a86c0"
+    },
+    {
+      "firstName": "marge",
+      "lastName": "simpson",
+      "email": "marge@simpson.com",
+      "password": "secret",
+      "id": "2b6f0989-7b7f-4a38-ad26-aa06b922d751"
+    },
+    {
+      "firstName": "Jack",
+      "lastName": "Duggan",
+      "email": "jackduggan@webdev.com",
+      "password": "Hello1",
+      "id": "b82072fc-8120-43df-a068-a5001b7a7013"
+    },
+    {
+      "firstName": "Rosanne",
+      "lastName": "Birney",
+      "email": "rosannebirney@webdev.com",
+      "password": "Hello1",
+      "id": "1a294203-9cd2-4239-a615-db5effe204ed"
+    },
+    {
+      "firstName": "John",
+      "lastName": "Johnson",
+      "email": "jjohnson@webdev.com",
+      "password": "Hello1",
+      "id": "3077a9a8-9f98-4a8b-8fc2-a1ee40153dea"
+    },
+    {
+      "firstName": "Rosanne",
+      "lastName": "Birney",
+      "email": "rosanne@gmail.com",
+      "password": "Secret1",
+      "id": "316cd56d-f388-4b5d-82b1-d6e5f97065a5"
+    },
+    {
+      "firstName": "Jack",
+      "lastName": "Duggan",
+      "email": "jackduggan@webappdev.com",
+      "password": "WebAppDev1",
+      "id": "5125fffd-172c-4219-ab75-dcff0d130c3a"
+    }
+  ]
+}

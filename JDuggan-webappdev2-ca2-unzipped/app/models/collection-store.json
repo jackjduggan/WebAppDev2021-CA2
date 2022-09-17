@@ -1,0 +1,112 @@
+{
+  "videoGameCollection": [
+    {
+      "id": "26f6bb1f-46b7-45f7-9806-625fc8725b97",
+      "userid": "2b6f0989-7b7f-4a38-ad26-aa06b922d751",
+      "title": "Test Collection - Marge",
+      "playtime": "12",
+      "games": []
+    },
+    {
+      "id": "321273c5-2220-41ca-8616-799fed0be33a",
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "title": "Homer's GTA Collection",
+      "playtime": "100",
+      "picture": "http://res.cloudinary.com/jduggan/image/upload/v1619962322/nornejaytzgr3wc2uazc.jpg",
+      "date": "2021-05-02T13:32:01.807Z",
+      "games": [
+        {
+          "id": "e2474498-2f85-40e7-89cd-26b0c58f2fc6",
+          "title": "GTA V",
+          "developer": "Rockstar",
+          "release": "2020",
+          "playtime": "312"
+        },
+        {
+          "id": "092a715b-c95c-47c1-80b5-238bcfa468a1",
+          "title": "GTA IV",
+          "developer": "Rockstar",
+          "release": "2009",
+          "playtime": "250"
+        }
+      ]
+    },
+    {
+      "id": "d0757596-f3d5-4de1-a0ee-3541c25f96f1",
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "title": "Homer's Minecraft Collection",
+      "playtime": "200",
+      "picture": "http://res.cloudinary.com/jduggan/image/upload/v1619962423/tfurekdsae2xwqzjunts.png",
+      "date": "2021-05-02T13:33:43.527Z",
+      "games": []
+    },
+    {
+      "id": "ea9def48-d7b7-4663-9e82-03c78ce0abbe",
+      "userid": "b82072fc-8120-43df-a068-a5001b7a7013",
+      "title": "Jack's Awesome Collection",
+      "playtime": "200",
+      "picture": "http://res.cloudinary.com/jduggan/image/upload/v1619969063/zmax5frhhbdbpegmpwmu.gif",
+      "date": "2021-05-02T15:24:21.377Z",
+      "games": [
+        {
+          "id": "f11977e1-1db1-4d03-a08c-af1ffdeb5902",
+          "title": "Sleeping Dogs",
+          "developer": "Square Enix",
+          "release": "2014",
+          "playtime": "20"
+        }
+      ]
+    },
+    {
+      "id": "7b431623-5200-4aaf-861f-96e09b1805c7",
+      "userid": "b82072fc-8120-43df-a068-a5001b7a7013",
+      "title": "Jack's Building Games",
+      "playtime": "200",
+      "picture": "http://res.cloudinary.com/jduggan/image/upload/v1620132347/ehm1nnb9cgmeuwmnfyiq.jpg",
+      "date": "2021-05-04T12:45:47.379Z",
+      "games": [
+        {
+          "id": "121ef088-738e-4ed0-9475-7fcabebf112f",
+          "title": "Terraria",
+          "developer": "505 Games",
+          "release": "2015",
+          "playtime": "25"
+        }
+      ]
+    },
+    {
+      "id": "f662a40a-121b-47fd-a3c7-aa37bfa0200b",
+      "userid": "3077a9a8-9f98-4a8b-8fc2-a1ee40153dea",
+      "title": "John's Collection",
+      "playtime": "100",
+      "picture": "http://res.cloudinary.com/jduggan/image/upload/v1620133816/hbwtfqr6il4wdj3yyeq0.png",
+      "date": "2021-05-04T13:10:15.827Z",
+      "games": [
+        {
+          "id": "943da1c8-b82b-429f-8ac1-10f695fe5f64",
+          "title": "Minecraft",
+          "developer": "Mojang",
+          "release": "2009",
+          "playtime": "150"
+        }
+      ]
+    },
+    {
+      "id": "1d95e782-9053-4c52-9348-7f93ef970e2b",
+      "userid": "316cd56d-f388-4b5d-82b1-d6e5f97065a5",
+      "title": "test",
+      "playtime": "test",
+      "picture": "http://res.cloudinary.com/jduggan/image/upload/v1620135128/dovvynkfrjc3huac274x.jpg",
+      "date": "2021-05-04T13:32:08.621Z",
+      "games": [
+        {
+          "id": "004ee7dc-cb4b-4d9e-8fb5-9f723f89f54a",
+          "title": "test",
+          "developer": "test",
+          "release": "2010",
+          "playtime": "24"
+        }
+      ]
+    }
+  ]
+}

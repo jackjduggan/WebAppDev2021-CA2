@@ -1,0 +1,63 @@
+{{> menu}}
+
+<section class="ui three column grid segment">
+
+    <!-- UI Column -->
+    <div class="ui eight wide column">
+      <h1 class="ui header">
+        Welcome to your Video Game Collection, {{fullname}}!
+      </h1>
+        <p>
+          This app will allow users to add, delete, rate and view their ever-growing collection of addictive video games!
+        </p>
+
+      <!-- Buttons -->
+      <div class="buttons">
+        <button class="ui blue button" onclick="showHide()">Read more<i class="arrow circle right icon"></i></button>
+        <button class="ui green button" onclick="likeIt()">Like it? <i class="thumbs up icon"></i></button>
+        <button class="ui red button" onclick="welcomeUser()">Who are you? <i class="user icon"></i></button>
+      </div>
+
+      <!-- Read More -->
+      <div id="readmore" class="ui message">
+        <p>This app was created by Jack Duggan for his Web App Development 1 Module, Assignment 1.</p>  
+      </div>
+
+      <!-- Welcome User -->
+      <div id="welcomeuser" class="ui message" onclick="hideWelcome()"></div>
+
+      <div class="ui divider"></div>
+      
+      <h3 class="ui center aligned header">The Video Game Collection App now contains:</h3>
+      <div class="ui two statistics">
+        <div class="ui huge statistic">
+          <div class="value">
+            {{totalCollections}}
+          </div>
+          <div class="label">
+            Collections
+          </div>
+        </div>
+        <div class="ui huge statistic">
+          <div class="value">
+            {{totalGames}}
+          </div>
+          <div class="label">
+            Games
+          </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="ui four wide column">
+        <img class="ui small circular image" src="https://cdn.glitch.com/2195feae-51b9-4778-a4c2-b7a1e4080f7f%2Fminecraft.png?v=1615985118185">
+        <img class="ui small circular image" src="https://cdn.glitch.com/2195feae-51b9-4778-a4c2-b7a1e4080f7f%2Fgtav.jpg?v=1615985207734">
+    </div>
+
+    <div class="ui four wide column">
+        <img class="ui small circular image" src="https://cdn.glitch.com/2195feae-51b9-4778-a4c2-b7a1e4080f7f%2Ffifa21.jpg?v=1615985051250">
+        <img class="ui small circular image" src="https://cdn.glitch.com/2195feae-51b9-4778-a4c2-b7a1e4080f7f%2Fterraria.jpg?v=1615985251762">
+    </div>         
+      
+    
+</section>

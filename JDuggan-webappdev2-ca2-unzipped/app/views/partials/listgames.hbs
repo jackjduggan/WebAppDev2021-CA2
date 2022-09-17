@@ -1,0 +1,64 @@
+{{#unless collection.games}}
+  <h3 class="ui center aligned message">There's not a lot of gaming going on here... What are you waiting for, start adding some games!</h3>
+{{/unless}}
+
+{{#if collection.games}} <!-- If Helper -->
+
+<table class="ui fixed striped table">
+  <thead>
+    <tr>
+      <th class="four wide">Game</th>
+      <th class="four wide">Developer</th>
+      <th class="three wide">Release Year</th>
+      <th class="three wide">Playtime (hours)</th>
+      <th class="one wide"> </th>
+      <th class="one wide"> </th>
+    </tr>
+  </thead>
+<tbody>
+    {{#each collection.games}}
+    <form class = "ui form" action="/collection/{{../collection.id}}/updategame/{{id}}" method="POST">
+    <tr class="fields">
+      <td class="field">
+        <span class="ui input">
+         <input placeholder="Title" type="text" size="30" name="title" autofocus required value = "{{title}}">
+        </span>
+      </td>
+      <td class="field">
+        <span class="ui input">
+          <input placeholder="Developer" type="text" size="30" name="developer" required value = "{{developer}}">
+        </span>
+      </td>
+      <td class="field">
+        <span class="ui input">
+          <input placeholder="Release" type="text" name="release" required value = "{{release}}">
+        </span>
+      </td>
+      <td class="field">
+        <span class="ui input">
+          <input placeholder="Playtime" type="text" name="playtime" required value = "{{playtime}}">
+        </span>
+      </td>
+      <td class="center aligned">
+        <button class="ui submit icon button"><i class="icon pencil alternate"></i></button>
+      </td>
+      <td class="center aligned">
+        <a href="/collection/{{../collection.id}}/deletegame/{{id}}" class="ui icon button delgame">
+          <i class="icon trash"></i>
+        </a>
+      </td>
+    </tr>
+    </form> 
+    {{/each}}
+  </tbody>
+</table>
+
+<p>
+  <span id="rating"> </span>
+</p>
+
+<button class="ui blue button" onclick="getRating()">
+  Rate it! <i class="star icon"></i>
+</button>
+
+{{/if}}
